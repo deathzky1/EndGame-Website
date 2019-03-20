@@ -3,8 +3,79 @@
 <head>
 	<title>Gallery</title>
 </head>
-<body>
+<body class ="homepage">
 	<div id= "topContent"></div>
 
-	<section id = "main-slider" class="no-margin"></section>
+	<section id = "main-slider" class="no-margin">
+		<div class ="carousel slide" data-ride ="carousel">
+			<ol class ="carousel-indicators">
+				<li data-target ="#main-slider" data-slide-to="0" class ="active"></li>
+				<li data-target="#main-slider" data-slide-to="1"></li>
+				<li data-target ="#main-slider" data-slide-to ="2"></li>
+			</ol>
+			<div class ="carousel-inner">
+
+				<div class ="item active" style ="background-image: url(images/slider/bg1.jpg)">
+					<div class ="container">
+						<div class = "row slide-margin">
+							<div class = "col-sm-6">
+								   <div class="carousel-content">
+                                <h1 class="animation animated-item-1">Monsters</h1>
+                                <h2 class="animation animated-item-2">A bestiary is usually a volume containing
+                                    information on different creatures, either living or mythical, depending on the
+                                    focus of the treatise. In The Witcher 3, there are many beasts to discover and slay
+                                    in your adventures as Geralt.</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+                                <img src="images/slider/img2.png" class="img-responsive" alt="screenshot 2">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">Open world</h1>
+                                <h2 class="animation animated-item-2">Explore the many Kingdoms and Cities in the world
+                                    of The Witcher. Familiarize yourself with the Geography facing The White Wolf as he
+                                    continues his quest to destroy the Wild Hunt.</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+                                <img src="images/slider/img3.png" class="img-responsive" alt="screenshot 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+    </a>
+    <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+    </a>
+</section>
+
+<section id="feature">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>Main Game Features</h2>
+            <p class="lead">The Witcher 3: Wild Hunt is a story-driven, next-generation open world role-playing game set
+                in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The
+                Witcher, you play as the professional monster hunter Geralt of Rivia, tasked with finding a child of
+                prophecy...</p>
+        </div>
+					</div>
+	</section>
 </body>
+</html>
